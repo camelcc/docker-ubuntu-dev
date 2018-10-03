@@ -25,8 +25,12 @@ This image based on Ubuntu 18.04 with IPv6 disabled when doing the apt operation
 - curl, wget
 - vim (just in case)
 
+## C
 
-### Python
+- valgrind
+
+
+## Python
 
 Install python3, pip3, and packages:
 
