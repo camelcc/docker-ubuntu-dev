@@ -36,6 +36,7 @@ Install python3, pip3, and packages:
 
 - requests
 - beautifulsoup4
+- matplotlib
 
 
 ## Ref
