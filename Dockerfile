@@ -8,7 +8,7 @@ RUN touch /etc/apt/apt.conf.d/99force-ipv4 && \
 
 # Common tools
 RUN apt-get update
-RUN apt-get install -y sudo software-properties-common curl wget git zip unzip vim build-essential 
+RUN apt-get install -y sudo software-properties-common curl wget git zip unzip vim build-essential net-tools
 
 # C
 RUN apt-get install -y valgrind
