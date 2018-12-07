@@ -17,6 +17,9 @@ RUN apt-get install -y valgrind
 RUN apt-get install -y python3 python3-pip 
 RUN pip3 install requests beautifulsoup4 matplotlib
 
+# misc
+RUN apt-get install sqsqlitebrowser
+
 WORKDIR /proj
 VOLUME /proj
 
