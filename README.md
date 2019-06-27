@@ -24,10 +24,14 @@ This image based on Ubuntu 18.04 with IPv6 disabled when doing the apt operation
 - zip, unzip
 - curl, wget
 - vim (just in case)
+- xvfb (x11)
 
 ## C
 
 - valgrind
+
+## OpenJDK
+- default-jdk
 
 
 ## Python
@@ -38,5 +42,8 @@ Install python3, pip3, and packages:
 - beautifulsoup4
 - matplotlib
 
+## Usage
+
+`docker run --rm -it -v $(pwd):/proj ubuntu-dev`
 
 ## Ref
